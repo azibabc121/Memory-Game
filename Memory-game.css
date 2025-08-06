@@ -9,9 +9,15 @@
 }
 /* rgb(56, 188, 218) */
 
+
+
+
+
 body {
-    background-color: rgb(56, 188, 218);
+    background-color: rgb(123, 82, 194);
 }
+
+
 
 .card-container {
     width: 420px;
@@ -46,10 +52,10 @@ body {
     align-items: center;
     justify-content: center;
 }
-
+/* 
 .card.flip {
     transform: rotateY(180deg);
-}
+} */
 
 .card-front img {
     width: 100%;
