@@ -26,10 +26,11 @@ body {
     height: 100%;
     position: relative;
     transform-style: preserve-3d;
-    /* preserve-3d helps maintain the 3D look for nested elements. if we dont apply this property then we cannot see the Game because i will be in 2d shape and when it  will rotate , we ccan just see the back side of the front card not the   second card  */
     transition: transform 1s;
     border-radius: 10px;
 }
+
+
 
 .card-face {
     width: 100%;

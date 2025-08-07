@@ -37,12 +37,10 @@ for (let i = 0; i < shuffleImages.length; i++) {
     let box = document.createElement('div');
     box.className = "item";
 
-    // Create an img element and set its src attribute
     let image = document.createElement('img');
     image.src = shuffleImages[i].imgSrc;
-    image.alt = shuffleImages[i].name; // Set alt text for accessibility
+    image.alt = shuffleImages[i].name; 
 
-    // Append the img element to the box
     box.appendChild(image);
 
     box.onclick = function () {
