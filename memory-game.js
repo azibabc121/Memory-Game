@@ -7,28 +7,28 @@ startButton.addEventListener('click', () => {
 
 });
 
-// const getData = () => [
-//     { imgSrc: "./images/pookie-G.png", name: "P-G" },
-//     { imgSrc: "./images/pink-Alien.png", name: "P-F" },
-//     { imgSrc: "./images/P-Alien.png", name: "P-M" },
-//     { imgSrc: "./images/Y-Alien.png", name: "P-I" },
-//     { imgSrc: "./images/Bana-Alien.png", name: "P-J" },
-//     { imgSrc: "./images/O-Alien.png", name: "P-K" },
-//     { imgSrc: "./images/PK-Alien.png", name: "P-L" },
-//     { imgSrc: "./images/OP-Alien.png", name: "P-G" },
+const getData = () => [
+    { imgSrc: "./images/pookie-G.png", name: "P-G" },
+    { imgSrc: "./images/pink-Alien.png", name: "P-F" },
+    { imgSrc: "./images/P-Alien.png", name: "P-M" },
+    { imgSrc: "./images/Y-Alien.png", name: "P-I" },
+    { imgSrc: "./images/Bana-Alien.png", name: "P-J" },
+    { imgSrc: "./images/O-Alien.png", name: "P-K" },
+    { imgSrc: "./images/PK-Alien.png", name: "P-L" },
+    { imgSrc: "./images/OP-Alien.png", name: "P-G" },
 
 
-//     { imgSrc: "./images/pookie-G.png", name: "P-N" },
-//     { imgSrc: "./images/pink-Alien.png", name: "P-F" },
-//     { imgSrc: "./images/P-Alien.png", name: "P-M" },
-//     { imgSrc: "./images/Y-Alien.png", name: "P-I" },
-//     { imgSrc: "./images/Bana-Alien.png", name: "P-J" },
-//     { imgSrc: "./images/O-Alien.png", name: "P-K" },
-//     { imgSrc: "./images/PK-Alien.png", name: "P-L" },
-//     { imgSrc: "./images/OP-Alien.png", name: "P-G" },
+    { imgSrc: "./images/pookie-G.png", name: "P-N" },
+    { imgSrc: "./images/pink-Alien.png", name: "P-F" },
+    { imgSrc: "./images/P-Alien.png", name: "P-M" },
+    { imgSrc: "./images/Y-Alien.png", name: "P-I" },
+    { imgSrc: "./images/Bana-Alien.png", name: "P-J" },
+    { imgSrc: "./images/O-Alien.png", name: "P-K" },
+    { imgSrc: "./images/PK-Alien.png", name: "P-L" },
+    { imgSrc: "./images/OP-Alien.png", name: "P-G" },
 
 
-// ];
+];
 
 
 const shuffleImages = getData().sort(() => Math.random() - 0.5);
