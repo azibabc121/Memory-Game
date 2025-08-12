@@ -90,16 +90,16 @@ box.onclick = function () {
                 document.querySelectorAll('.Boxopen')[1].classList.remove('BoxMatch');
                 document.querySelectorAll('.Boxopen')[0].classList.remove('BoxMatch');
 
-//                 if (document.querySelectorAll('.BoxMatch').length == shuffleImages.length) {
-//                     alert(Win);
-//                 }
-//             }
-//             else {
-//                 document.querySelectorAll('.Boxopen')[1].classList.remove('BoxMatch');
-//                 document.querySelectorAll('.Boxopen')[0].classList.remove('BoxMatch');
-//             }
-//         }
-//     }, 500)
-// }
+                if (document.querySelectorAll('.BoxMatch').length == shuffleImages.length) {
+                    alert(Win);
+                }
+            }
+            else {
+                document.querySelectorAll('.Boxopen')[1].classList.remove('BoxMatch');
+                document.querySelectorAll('.Boxopen')[0].classList.remove('BoxMatch');
+            }
+        }
+    }, 500)
+}
 
 
