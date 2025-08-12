@@ -78,17 +78,17 @@ for (let i = 0; i < shuffleImages.length; i++) {
     document.querySelector('.game').appendChild(box);
 }
 
-// box.onclick = function () {
-//     this.classList.add('Boxopen');
-//     setTimeout(function () {
-//         if (document.querySelectorAll('.Boxopen').length > 1) {
-//             if (document.querySelectorAll('.Boxopen')[0].innerHTML == document.querySelectorAll('.Boxopen')[1].innerHTML) {
+box.onclick = function () {
+    this.classList.add('Boxopen');
+    setTimeout(function () {
+        if (document.querySelectorAll('.Boxopen').length > 1) {
+            if (document.querySelectorAll('.Boxopen')[0].innerHTML == document.querySelectorAll('.Boxopen')[1].innerHTML) {
 
-//                 document.querySelectorAll('.Boxopen')[0].classList.add('BoxMatch');
-//                 document.querySelectorAll('.Boxopen')[1].classList.add('BoxMatch');
+                document.querySelectorAll('.Boxopen')[0].classList.add('BoxMatch');
+                document.querySelectorAll('.Boxopen')[1].classList.add('BoxMatch');
 
-//                 document.querySelectorAll('.Boxopen')[1].classList.remove('BoxMatch');
-//                 document.querySelectorAll('.Boxopen')[0].classList.remove('BoxMatch');
+                document.querySelectorAll('.Boxopen')[1].classList.remove('BoxMatch');
+                document.querySelectorAll('.Boxopen')[0].classList.remove('BoxMatch');
 
 //                 if (document.querySelectorAll('.BoxMatch').length == shuffleImages.length) {
 //                     alert(Win);
