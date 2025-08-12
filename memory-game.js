@@ -49,7 +49,6 @@ for (let i = 0; i < shuffleImages.length; i++) {
             let openBoxes = document.querySelectorAll('.Boxopen');
             
             if (openBoxes.length === 2) {
-                // Compare the images by src attribute
                 let firstImageSrc = openBoxes[0].querySelector('img').src;
                 let secondImageSrc = openBoxes[1].querySelector('img').src;
     
@@ -57,15 +56,12 @@ for (let i = 0; i < shuffleImages.length; i++) {
                     openBoxes[0].classList.add('BoxMatch');
                     openBoxes[1].classList.add('BoxMatch');
                 } else {
-                    // No match: remove the 'Boxopen' class to close the cards
                     openBoxes[0].classList.remove('Boxopen');
                     openBoxes[1].classList.remove('Boxopen');
                 }
-                // Reset open boxes for the next comparison
                 openBoxes.forEach(box => box.classList.remove('Boxopen'));
             }
     
-            // Check if all cards are matched
             if (document.querySelectorAll('.BoxMatch').length === shuffleImages.length) {
                 alert("Win");
             }
